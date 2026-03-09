@@ -43,14 +43,3 @@ The kriging standard deviation map shows prediction reliability. Uncertainty ran
 
 ![Kriging uncertainty](docs/images/uncertainty_map.png)
 
-## How to reproduce
-
-```bash
-# 1. Fetch data (requires API access, one-time)
-python fetch_data.py
-
-# 2. Run kriging from local parquet
-python kriging_parquet.py
-```
-
-Output PNGs are saved to the `output/` directory by default. Edit `DEFAULT_CONFIG` in `kriging_parquet.py` to change the element, bounding box, or resolution.
