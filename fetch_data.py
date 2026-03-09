@@ -1,6 +1,6 @@
 """Fetch till geochemistry data from the CH API and save as Parquet.
 
-Queries the same bbox/resolution/element used by the kriging pipeline
+Queries the same bbox/resolution used by the kriging pipeline
 and stores the raw API response in data/till_al.parquet for offline use.
 """
 
